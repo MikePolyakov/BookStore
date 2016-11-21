@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background-color: #4cfeb7;*/
+}
+
+body {}
+
+.container {
+    width: 1600px;
+    height: 1399px;
+    margin: 0 auto;
+}
+
+header {
+    height: 452px;
+    background: rgb(241, 189, 65)
+}
+
+.name {
+    width: 550px;
+    height: 58px;
+    margin-top: 17px;
+    margin-left: 314px;
+    float: left;
+    font-weight: 600;
+    font-family: HelveticaNeueLTStd;
+    font-size: 72px;
+    color: #ff6912;
+    font-style: italic;
+    line-height: 58px;
+}
+
+.ShoppingCart {
+    float: left;
+    width: 255px;
+    height: 37px;
+    background: url(images/cart.png) no-repeat left;
+    margin-left: 30px;
+    margin-top: 45px;
+    padding-left: 30px;
+}
+
+.ShoppingCart h1 {
+    font-family: Arial;
+    color: #040405;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+}
+
+.quantity {
+    float: left;
+    width: 129px;
+    height: 37px;
+    color: #319aa4;
+    margin-left: 5px;
+    margin-top: 45px;
+    color: #319aa4;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+}
+
+.green_header {
+    clear: both;
+    width: 926px;
+    height: 46px;
+    margin-left: 318px;
+    background-color: rgb(76, 174, 183);
+    margin-top: 4px;
+    list-style: none;
+    padding-left: 40px;
+    border-radius: 7px;
+}
+
+.menu {
+    float: left;
+}
+
+.menu-item {
+    display: inline;
+    margin-right: 40px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 46px;
+}
+
+.menu li a:hover {
+    background-color: rgb(119, 215, 224);
+}
+
+.white_search {
+    float: left;
+    width: 355px;
+    height: 35px;
+    border-radius: 17px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    padding-right: 20px;
+}
+
+.Search {
+    font-size: 26px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 35px;
+    float: left;
+}
+
+.glass {
+    width: 20px;
+    height: 20px;
+    background: url(images/glass.png) no-repeat;
+    float: right;
+    margin-top: 8px;
+}
+
+.big_picture {
+    width: 960px;
+    height: 390px;
+    border-color: rgb(76, 174, 183);
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 318px;
+    background-color: rgb(241, 236, 231);
+    border-radius: 4px;
+}
+
+.bp_center {
+    margin-left: 176px;
+    width: 589px;
+    height: 390px;
+    background: url(images/photo.png);
+}
+
+.content {
+    height: 645px;
+}
+
+.content_left {
+    width: 213px;
+    height: 645px;
+    float: left;
+}
+
+.Categories {
+    width: 213px;
+    height: 440px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    margin-left: 314px;
+    margin-top: 84px;
+}
+
+.content_right {
+    width: 740px;
+    height: 641px;
+    background-color: red;
+    margin-left: 330px;
+    margin-top: 88px;
+    float: left;
+}
+
+.content_right h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #594213;
+    line-height: 40px;
+}
