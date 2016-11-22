@@ -123,14 +123,14 @@ header {
 }
 
 .big_picture {
-    width: 960px;
-    height: 390px;
-    border-color: rgb(76, 174, 183);
-    border-style: solid;
-    border-width: 3px;
+    width: 941px;
+    height: 320px;
     margin-left: 318px;
     background-color: rgb(241, 236, 231);
     border-radius: 4px;
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-bottom: 30px;
 }
 
 .bp_center {
@@ -138,6 +138,33 @@ header {
     width: 589px;
     height: 390px;
     background: url(images/photo.png);
+    float: left;
+    margin-top: -40px;
+}
+
+.books_left .saveup {
+    width: 141px;
+    height: 137px;
+    /*background-color: rgb(241, 189, 65);*/
+    background-color: red;
+}
+
+.bp_right {
+    width: 321px;
+    height: 320px;
+    background: url(images/books.png);
+    margin-left: 620px;
+}
+
+.books_left {
+    width: 150px;
+    height: 271px;
+    font-size: 30px;
+    font-weight: 300;
+    color: darkgreen;
+    font-family: AmericanTypewLH;
+    text-align: center;
+    line-height: 30px;
 }
 
 .content {
@@ -151,29 +178,106 @@ header {
 }
 
 .Categories {
-    width: 213px;
-    height: 440px;
+    width: 256px;
+    height: 370px;
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0);
     border-style: solid;
-    border-width: 5px;
+    border-width: 6px;
     border-color: beige;
     margin-left: 314px;
-    margin-top: 84px;
+}
+
+.product {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #dacfc5;
+    /*box-sizing: border-box;*/
+    background-color: #f1ece7;
+    width: 220px;
+    height: 197px;
+    margin-left: 314px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.short_description {
+    background-color: red;
+}
+
+.button a {
+    display: block;
+    width: 113px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 155px;
+    background-color: rgb(241, 189, 65);
+    transition: background-color 1.5s ease;
+    margin-left: 40px;
+}
+
+.button a:hover {
+    background-color: #679f95;
+}
+
+.button a:active {
+    position: relative;
+    top: 10px;
 }
 
 .content_right {
-    width: 740px;
+    width: 686px;
     height: 641px;
-    background-color: red;
-    margin-left: 330px;
+    background-color: #dacfc5;
+    ;
+    margin-left: 598px;
     margin-top: 88px;
-    float: left;
+    border-radius: 4px;
 }
 
 .content_right h1 {
+    height: 40px;
+    background-color: rgb(241, 236, 231);
     font-size: 22px;
     font-weight: 600;
     color: #594213;
-    line-height: 40px;
+    line-height: 46px;
+    padding-left: 20px;
+}
+
+.right_left,
+.right_right {
+    width: 310px;
+    height: 560px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.cards {
+    width: 300px;
+    height: 160px;
+    background-color: floralwhite;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.catalog-item a {
+    float: left;
+    width: 130px;
+}
+
+footer {
+    width: 1600px;
+    height: 180px;
+    background: rgb(241, 189, 65);
+    margin-top: 40px;
 }
