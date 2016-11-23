@@ -307,7 +307,7 @@ item {
     line-height: 30px;
     color: #ffffff;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
     margin-top: 34px;
     background-color: rgb(241, 189, 65);
     transition: background-color 1.5s ease;
@@ -329,6 +329,7 @@ item {
     font-size: 20px;
     font-weight: 400;
     margin-left: 120px;
+    padding-left: 30px;
 }
 
 .short_description2 a {
@@ -418,4 +419,63 @@ footer {
     height: 180px;
     background: rgb(241, 189, 65);
     margin-top: 40px;
+}
+
+.footer_menu {
+    width: 1010px;
+    height: 70px;
+    margin-left: 290px;
+    padding-top: 26px;
+    padding-left: 18px;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+
+.menu3 {
+    list-style: none;
+}
+
+.item2 {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu3 li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    line-height: 46px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.menu3 li a:hover {
+    color: whitesmoke;
+}
+
+.footer_menu2 {
+    width: 1000px;
+    height: 60px;
+    margin-left: 618px;
+    padding-top: 12px;
+    list-style: none;
+}
+
+.menu-item2 {
+    display: inline;
+    margin-right: 40px;
+    height: 36px;
+}
+
+.menu4 li a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    color: #393232;
+    line-height: 46px;
+}
+
+.menu4 li a:hover {
+    color: whitesmoke;
 }
