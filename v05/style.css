@@ -258,18 +258,21 @@ header {
     height: 1070px;
     margin-left: 8px;
     float: left;
-    background-color: red;
+    /*background-color: red;*/
     padding-top: 22px;
     padding-left: 13px;
 }
 
 .FAQs {
-    width: 675px;
+    width: 640px;
     height: 40px;
+    font-size: 22px;
     line-height: 40px;
-    background-color: beige;
+    background-color: rgb(241, 236, 231);
     padding-left: 20px;
     border-radius: 5px;
+    font-weight: 600;
+    color: #594213;
 }
 
 .content_left_FAQ h4 {
@@ -286,37 +289,34 @@ header {
 }
 
 .content_right_FAQ {
-    width: 215px;
+    width: 315px;
     height: 1040px;
-    margin-left: 730px;
+    margin-left: 695px;
+    padding-top: 22px;
 }
 
 .bp_right_FAQ {
-    width: 270px;
-    height: 270px;
+    width: 225px;
+    height: 225px;
     background: url(images/books.png);
-    margin-left: 620px;
-    padding: 25px;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .books_left_FAQ {
     width: 118px;
     height: 110px;
-    font-size: 25px;
+    font-size: 20px;
     color: #034046;
     float: left;
-    margin-left: -120px;
     text-align: center;
-    margin-top: -120px;
 }
 
 .saveup_FAQ {
-    width: 141px;
-    height: 121px;
+    width: 110px;
+    height: 110px;
     background-color: rgb(241, 189, 65);
     border-radius: 5px;
-    margin-top: 6px;
-    margin-left: -120px;
     float: left;
     text-align: center;
     padding-top: 12px;
@@ -330,7 +330,7 @@ header {
 
 .Categories {
     width: 208px;
-    height: 380px;
+    height: 340px;
     border-radius: 4px;
     background-color: floralwhite;
     border-style: solid;
@@ -346,7 +346,7 @@ header {
 
 .menu2 {
     list-style: none;
-    margin-top: 40px;
+    margin-top: 5px;
     margin-left: 40px;
 }
 
@@ -373,11 +373,11 @@ item {
     border-style: solid;
     border-width: 10px;
     border-color: #dacfc5;
-    border-radius: 3px;
+    border-radius: 10px;
     /*box-sizing: border-box;*/
     background-color: #f1ece7;
-    width: 235px;
-    height: 150px;
+    width: 232px;
+    height: 200px;
     /*margin-left: 314px;*/
     padding-top: 10px;
     padding-left: 10px;
@@ -387,14 +387,19 @@ item {
 
 .short_description1 {
     width: 100px;
-    height: 87px;
-    font-size: 20px;
-    font-weight: 400;
+    height: 150px;
+    /* font-size: 30px;
+    font-weight: 400;*/
     margin-left: 120px;
 }
 
+.short_description1 h2 {
+    font-size: 28px;
+    color: red;
+}
+
 .short_description1 a {
-    width: 160px;
+    width: 120px;
     height: 30px;
     color: #319aa4;
     border-bottom-color: #63696a;
@@ -408,7 +413,7 @@ item {
 
 .button1 a {
     display: block;
-    width: 120px;
+    width: 126px;
     height: 30px;
     border-radius: 15px;
     font-size: 12px;
@@ -416,11 +421,11 @@ item {
     line-height: 30px;
     color: #ffffff;
     text-decoration: none;
-    /*text-align: left;*/
-    margin-top: 34px;
+    text-align: center;
+    margin-top: 16px;
     background-color: rgb(241, 189, 65);
     transition: background-color 1.5s ease;
-    margin-left: 110px;
+    margin-left: 50px;
 }
 
 .button1 a:hover {
