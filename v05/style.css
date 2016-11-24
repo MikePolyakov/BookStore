@@ -228,6 +228,16 @@ header {
     padding-top: 10px;
 }
 
+.content_FAQ {
+    clear: both;
+    width: 962px;
+    height: 1039px;
+    margin-top: -412px;
+    margin-left: 318px;
+    background-color: white;
+    padding-top: 10px;
+}
+
 .content_left {
     width: 268px;
     height: 645px;
@@ -241,6 +251,81 @@ header {
     height: 1040px;
     margin-left: 8px;
     float: left;
+}
+
+.content_left_FAQ {
+    width: 655px;
+    height: 1070px;
+    margin-left: 8px;
+    float: left;
+    background-color: red;
+    padding-top: 22px;
+    padding-left: 13px;
+}
+
+.FAQs {
+    width: 675px;
+    height: 40px;
+    line-height: 40px;
+    background-color: beige;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.content_left_FAQ h4 {
+    margin-top: 30px;
+    color: #3a8e96;
+    font-size: 26px;
+    font-family: Arial;
+}
+
+.content_left_FAQ p {
+    color: #63696a;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.content_right_FAQ {
+    width: 215px;
+    height: 1040px;
+    margin-left: 730px;
+}
+
+.bp_right_FAQ {
+    width: 270px;
+    height: 270px;
+    background: url(images/books.png);
+    margin-left: 620px;
+    padding: 25px;
+}
+
+.books_left_FAQ {
+    width: 118px;
+    height: 110px;
+    font-size: 25px;
+    color: #034046;
+    float: left;
+    margin-left: -120px;
+    text-align: center;
+    margin-top: -120px;
+}
+
+.saveup_FAQ {
+    width: 141px;
+    height: 121px;
+    background-color: rgb(241, 189, 65);
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-left: -120px;
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.saveup_FAQ H1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: normal;
 }
 
 .Categories {
