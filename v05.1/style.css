@@ -388,8 +388,6 @@ item {
 .short_description1 {
     width: 100px;
     height: 150px;
-    /* font-size: 30px;
-    font-weight: 400;*/
     margin-left: 120px;
 }
 
@@ -577,6 +575,96 @@ item {
     background-color: #dacfc5;
     border-radius: 4px;
     color: #319aa4;
+}
+
+.contact {
+    width: 668px;
+    height: 31px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #63696a;
+    margin-top: 30px;
+    font-family: Arial;
+    margin-bottom: 40px;
+}
+
+.fields {
+    width: 500px;
+    height: 100px;
+    margin-left: 75px;
+}
+
+.contact_name,
+.contact_email {
+    width: 500px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial;
+    margin-bottom: 9px;
+    color: #594213;
+    line-height: 34px;
+}
+
+.contact_name input,
+.contact_email input {
+    width: 300px;
+    height: 34px;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7d7d7;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    padding: 0 10px;
+    margin-left: 50px;
+}
+
+.contact_message {
+    width: 500px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial;
+    margin-bottom: 9px;
+    color: #594213;
+    line-height: 40px;
+    float: left;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7d7d7;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+    margin-left: 90px;
+    margin-top: -40px;
+}
+
+input[type="submit"] {
+    width: 80px;
+    height: 30px;
+    float: left;
+    margin-top: 18px;
+    background-color: rgb(241, 189, 65);
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 17px;
+    border: none;
+    line-height: 30px;
+    margin-left: 90px;
+}
+
+input[type="submit"] a:hover {
+    background-color: #679f95;
 }
 
 footer {
